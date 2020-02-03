@@ -35,4 +35,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>aksartifactory-artifactory-primary-0-releases</name>
+        <url>${env.MAVEN_REPO_URL}/libs-release-local</url>
+    </repository>
+</distributionManagement>
 </project>
